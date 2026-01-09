@@ -55,3 +55,52 @@ This project helps candidates **practice interviews**, improve communication, an
 
 ## 📂 Project Structure
 
+AI-Interviewer/
+├── backend/
+│ ├── controllers/
+│ ├── routes/
+│ ├── services/
+│ ├── utils/
+│ ├── server.js
+│ └── .env (ignored)
+│
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── hooks/
+│ │ ├── pages/
+│ │ └── utils/
+│ └── vite.config.js
+│
+├── README.md
+└── .gitignore
+
+
+---
+
+## ▶️ Run Locally
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/mintuchaudhary7/AI-Interviewer.git
+cd AI-Interviewer
+
+## Backend Setup
+cd backend
+npm install
+npm run dev
+
+#Create a .env file inside /Backend
+OPENROUTER_API_KEY=your_api_key_here
+
+##Frontend Setup
+
+cd frontend
+npm install
+npm run dev
+
+
+App open at
+http://localhost:5173
+
+
