@@ -20,7 +20,7 @@ export default function InterviewForm({
           <input
             value={jobTitle}
             onChange={(e) => setJobTitle(e.target.value)}
-            placeholder="Full Stack Developer"
+            placeholder="eg. Full Stack Developer"
             className="w-full px-4 py-2 rounded-lg bg-slate-700/50 border border-slate-600 text-white"
           />
         </label>
@@ -43,6 +43,7 @@ export default function InterviewForm({
           <input
             value={techStack}
             onChange={(e) => setTechStack(e.target.value)}
+            placeholder="eg. Javascript, React.js"
             className="w-full px-4 py-2 rounded-lg bg-slate-700/50 border border-slate-600 text-white"
           />
         </label>

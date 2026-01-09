@@ -18,7 +18,7 @@ export default function InterviewQuestion({
 
       <div className="mt-4 bg-slate-800 p-3 rounded min-h-[60px]">
         {answer || (
-          <span className="text-slate-500">
+          <span className={listening ? "text-green-500" : "text-red-500"}>
             {listening ? "Listening..." : "Waiting for answer"}
           </span>
         )}

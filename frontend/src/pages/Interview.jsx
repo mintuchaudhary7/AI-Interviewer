@@ -13,7 +13,7 @@ const TOTAL = 5;
 export default function Interview() {
   const [jobTitle, setJobTitle] = useState("");
   const [level, setLevel] = useState("mid");
-  const [techStack, setTechStack] = useState("React, JavaScript");
+  const [techStack, setTechStack] = useState("");
 
   const [phase, setPhase] = useState("form");
   const [question, setQuestion] = useState("");
