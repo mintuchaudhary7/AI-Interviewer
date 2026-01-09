@@ -59,53 +59,6 @@ This project helps candidates **practice interviews**, improve communication, an
 
 ---
 
-## 📂 Project Structure
-
-AI-Interviewer:
-README.md
-.gitignore
-
-frontend:
-package.json
-vite.config.js
-tailwind.config.js
-postcss.config.js
-index.html
-src:
-main.jsx
-App.jsx
-assets:
-components:
-Interview:
-QuestionCard.jsx
-TranscriptPanel.jsx
-FeedbackPanel.jsx
-UI:
-Button.jsx
-Loader.jsx
-hooks:
-useSpeechRecognition.js
-useTextToSpeech.js
-services:
-api.js
-styles:
-index.css
-
-backend:
-package.json
-server.js
-.env
-routes:
-interview.routes.js
-controllers:
-interview.controller.js
-services:
-ai.service.js
-utils:
-promptBuilder.js
-responseParser.js
-
----
 
 ## ▶️ Run Locally
 
